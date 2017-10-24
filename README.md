@@ -1,4 +1,4 @@
-### CI/CD configuration
+### CI/CD: TeamCity | SVN | Phabricator
 
 Please find screencast and descriptions of the task here:
 https://cloud.mail.ru/public/E9Qc/Cb2SNNCZp
@@ -24,6 +24,7 @@ As the application is used Python 3 stored in the repository Subversion.
 # This test script 4
 print ("Hello World! This is a test 444")
 ```
+Screenshots:
 ![](Teamcity.png)
 ![](SVN.png)
 ![](Phabricator.png)
