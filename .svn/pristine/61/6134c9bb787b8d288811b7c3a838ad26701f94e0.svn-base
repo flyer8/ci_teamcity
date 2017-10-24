@@ -1,0 +1,7 @@
+{
+  "phabricator.uri": "http://phabricator.flylab.local/",
+  "load": [
+    "src/"
+  ],
+  "history.immutable": false
+}

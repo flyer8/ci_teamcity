@@ -1,0 +1,6 @@
+public class HelloWorld {
+  public static void main(String[] args) {
+// Release 7
+  System.out.println("Hello world! I'm Sergey Shimanskiy, 8");
+  }
+}

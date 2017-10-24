@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+# This is test script 3
+print("Hello World! It's test 3")
