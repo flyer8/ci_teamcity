@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
 # Autor: Sergey Shimanskiy
-# This is test 888
+# This is test 6
 print("Hello World!")
-print("Hi Paragon Team, This is test task 888")
+print("Hi Paragon Team, This is test task 6")
