@@ -1,9 +1,9 @@
-### CI/CD: TeamCity | SVN | Phabricator
+### CI/CD configuration: TeamCity | SVN | Phabricator
 
 Please find screencast and descriptions of the task here:
 https://cloud.mail.ru/public/E9Qc/Cb2SNNCZp
 
-CI/CD infra is implemented on OS Linux mint 18.1 with 4 GB RAM.
+CI/CD infra is implemented on OS Linux Mint 18.1 with 4 GB RAM.
 
 JetBrains TeamCity is deployed in Docker container from the official repository https://hub.docker.com/r/jetbrains/teamcity-server:
 ```
@@ -21,8 +21,10 @@ Apache Subversion and Phacility Phabricator are installed on the host OS accordi
 As the application is used Python 3 stored in the repository Subversion.
 ```
 #!/usr/bin/env python3
-# This test script 4
-print ("Hello World! This is a test 444")
+# Autor: Sergey Shimanskiy
+# This is test 888
+print("Hello World!")
+print("Hi Paragon Team, This is test task 888")
 ```
 Screenshots:
 ![](Teamcity.png)
