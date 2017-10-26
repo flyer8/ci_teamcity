@@ -1,0 +1,41 @@
+Build 'project :: HelloWorld' #25
+Started 2017-10-26 19:01:40 on 'ip_172.17.0.1' by 'Subversion'
+Finished 2017-10-26 19:01:59 with status NORMAL 'Success'
+VCS revisions: 'repo' (Subversion): 24
+TeamCity URL http://127.0.0.1:8111/viewLog.html?buildId=33&buildTypeId=Project_HelloWorld 
+TeamCity server version is 2017.1.5 (build 47175), server timezone: UTC
+
+[19:01:31] : bt1 (27s)
+[19:01:31]i: TeamCity server version is 2017.1.5 (build 47175)
+[19:01:31] : Compute revision for 'repo'
+[19:01:31] :	 [Compute revision for 'repo'] Upper limit revision: 24
+[19:01:31]i:	 [Compute revision for 'repo'] MaxModId = 25
+[19:01:31] :	 [Compute revision for 'repo'] Latest commit attached to build configuration: 24
+[19:01:31] :	 [Compute revision for 'repo'] Computed revision: 24
+[19:01:33] : The build is removed from the queue to be prepared for the start
+[19:01:34] : Starting the build on the agent ip_172.17.0.1
+[19:01:40]i: Agent time zone: Europe/Moscow
+[19:01:42]i: Agent is running under JRE: 1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11
+[19:01:43] : Clearing temporary directory: /root/BuildAgent/temp/buildTmp
+[19:01:43] : Publishing internal artifacts (3s)
+[19:01:46] :	 [Publishing internal artifacts] Publishing 1 file using [WebPublisher]
+[19:01:46] :	 [Publishing internal artifacts] Publishing 1 file using [ArtifactsCachePublisher]
+[19:01:43] : Will perform clean checkout. Reason: Checkout directory is empty or doesn't exist
+[19:01:43] : Checkout directory: /root/BuildAgent/work/ec7b3ef73ba1292e
+[19:01:43] : Updating sources: auto checkout (on agent) (8s)
+[19:01:43] :	 [Updating sources] Will use agent side checkout
+[19:01:43] :	 [Updating sources] VCS Root: repo (8s)
+[19:01:43] :		 [VCS Root: repo] revision: 24
+[19:01:44] :		 [VCS Root: repo] Checkout from http://192.168.0.104:88/project_Hello
+[19:01:44] :		 [VCS Root: repo] Using working copy format 1.8
+[19:01:52] : Build preparation done
+[19:01:52] : Step 1/1: Executing Python script (Command Line) (6s)
+[19:01:55] :	 [Step 1/1] Starting: /root/BuildAgent/temp/agentTmp/custom_script3287030299063690663
+[19:01:55] :	 [Step 1/1] in directory: /root/BuildAgent/work/ec7b3ef73ba1292e
+[19:01:58] :	 [Step 1/1] Hello World!
+[19:01:58] :	 [Step 1/1] Hi Paragon Team, This is test revision 10
+[19:01:58] :	 [Step 1/1] Process exited with code 0
+[19:01:58] : Publishing internal artifacts
+[19:01:58] :	 [Publishing internal artifacts] Publishing 1 file using [WebPublisher]
+[19:01:58] :	 [Publishing internal artifacts] Publishing 1 file using [ArtifactsCachePublisher]
+[19:01:58] : Build finished
